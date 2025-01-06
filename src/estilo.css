@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.textoFrase{
+    font-style: italic;
+    color: #dd7b22;
+    text-align: center;
+}
+
+button {
+  background-color: #dd7b22; /* Azul padrão */
+  color: #fff; /* Texto branco */
+  border: none; /* Remove borda padrão */
+  border-radius: 5px; /* Bordas arredondadas */
+  padding: 10px 20px; /* Espaçamento interno */
+  font-size: 16px; /* Tamanho da fonte */
+  cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+  transition: background-color 0.3s ease; /* Efeito suave ao passar o mouse */
+}
+
+button:hover {
+  background-color: #FEC26A; /* Escurece o botão ao passar o mouse */
+}
+
+button:active {
+  background-color: #FEC26A; /* Cor ao clicar */
+}
+
+button:disabled {
+  background-color: #FEC26A; /* Cor para botão desativado */
+  cursor: not-allowed; /* Cursor para estado desativado */
+}
